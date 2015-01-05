@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player_Spawn.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Platform_Movement.cs" Line="21" Column="34" />
+      <File FileName="Assets\Scripts\Player_Death.cs" Line="9" Column="4" />
+      <File FileName="Assets\Scripts\Player_Spawn.cs" Line="21" Column="32" />
+      <File FileName="Assets\Scripts\Player_Movement.cs" Line="17" Column="37" />
+      <File FileName="Assets\Scripts\Leaver_Action.cs" Line="14" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
