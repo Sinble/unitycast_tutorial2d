@@ -42,14 +42,9 @@ public class Player_Movement : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D  collision) 
 	{
-		Collider2D collider = collision.collider;
-
-		Vector3 contactPoint = collision.contacts[0].point;
-		Vector3 center = collider.bounds.center;
-
-		if (contactPoint.y > center.y) {
+		Vector2 normal = collision.contacts[0].normal;
+		if (normal.y > 0.707) { //if the bottom side hit something 
 			isJumping = false;
 		}
-
 	}
 }
